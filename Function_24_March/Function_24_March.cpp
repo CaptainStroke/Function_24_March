@@ -25,8 +25,6 @@ void Calculator(double first, double act, double second)
     cout << result;   
 }
 
-
-
 int main()
 {
     double a, b, c;
