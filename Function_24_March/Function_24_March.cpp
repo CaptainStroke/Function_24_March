@@ -29,7 +29,12 @@ int main()
 {
     double a, b, c;
     //char b;
-    cin >> a >> b >> c;
+    cout << "Enter number - "; 
+    cin >> a;
+    cout << "Enter action \n1 \"+\"\n2 \"-\" \n3 \"*\" \n4 \"/\" \n";
+    cin >> b;
+    cout << "Enter number - "; 
+    cin >> c;
     Calculator(a, b, c);
 }
     
